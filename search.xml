@@ -5,8 +5,8 @@
     
     <entry>
       <title>主题安装记录</title>
-      <link href="/2023/07/27/hello-world/"/>
-      <url>/2023/07/27/hello-world/</url>
+      <link href="/2023/07/28/hello-world/"/>
+      <url>/2023/07/28/hello-world/</url>
       
         <content type="html"><![CDATA[<p>策划书大苏打伟大的撒旦策划书大苏打伟大的撒旦策划书大苏打伟大的撒旦策划书大苏打伟大的撒旦策划书大苏打伟大的撒旦策划书大苏打伟大的撒旦<br>策划书大苏打伟大的撒旦策划书大苏打伟大的撒旦<br>策划书大苏打伟大的撒旦<br>策划书大苏打伟大的撒旦<br>策划书大苏打伟大的撒旦</p>]]></content>
       
@@ -32,8 +32,8 @@
     
     <entry>
       <title>主题安装记录1</title>
-      <link href="/2023/07/27/hello-world1/"/>
-      <url>/2023/07/27/hello-world1/</url>
+      <link href="/2023/07/28/hello-world1/"/>
+      <url>/2023/07/28/hello-world1/</url>
       
         <content type="html"><![CDATA[<p>测试更新通知<br>策划书大苏打伟大的撒旦<br>策划书大苏打伟大的撒旦<br>策划书大苏打伟大的撒旦</p>]]></content>
       
@@ -59,8 +59,8 @@
     
     <entry>
       <title>开发1</title>
-      <link href="/2023/07/27/index-1%20copy%202/"/>
-      <url>/2023/07/27/index-1%20copy%202/</url>
+      <link href="/2023/07/28/index-1%20copy%202/"/>
+      <url>/2023/07/28/index-1%20copy%202/</url>
       
         <content type="html"><![CDATA[<p>策划书大苏打伟大的撒旦策划书大苏打伟大的撒旦<br>策划书大苏打伟大的撒旦<br>策划书大苏打伟大的撒旦</p>]]></content>
       
@@ -86,8 +86,8 @@
     
     <entry>
       <title>技术1</title>
-      <link href="/2023/07/27/index-1%20copy/"/>
-      <url>/2023/07/27/index-1%20copy/</url>
+      <link href="/2023/07/28/index-1%20copy/"/>
+      <url>/2023/07/28/index-1%20copy/</url>
       
         <content type="html"><![CDATA[<p>策划书大苏打伟大的撒旦<br>策划书大苏打伟大的撒旦<br>策划书大苏打伟大的撒旦</p>]]></content>
       
@@ -113,8 +113,8 @@
     
     <entry>
       <title>生活1</title>
-      <link href="/2023/07/27/index-1/"/>
-      <url>/2023/07/27/index-1/</url>
+      <link href="/2023/07/28/index-1/"/>
+      <url>/2023/07/28/index-1/</url>
       
         <content type="html"><![CDATA[<p>策划书大苏打伟大的撒旦<br>策划书大苏打伟大的撒旦<br>策划书大苏打伟大的撒旦</p>]]></content>
       
@@ -146,7 +146,7 @@
       <link href="/manifest.json"/>
       <url>/manifest.json</url>
       
-        <content type="html"><![CDATA[{"name":"GuMeng Blog","short_name":"GuMeng","theme_color":"#3b70fc","background_color":"#3b70fc","display":"standalone","scope":"/","start_url":"/","icons":[{"src":"/img/siteicon/144.png","sizes":"144x144","type":"image/png"},{"src":"/img/siteicon/256.png","sizes":"256x256","type":"image/png"}],"splash_pages":null}]]></content>
+        <content type="html"><![CDATA[{"name":"GuMeng Blog","short_name":"GuMeng","theme_color":"#3b70fc","background_color":"#3b70fc","display":"fullscreen","scope":"/","start_url":"/","id":"/","icons":[{"src":"/img/siteicon/144.png","sizes":"144x144","type":"image/png"},{"src":"/img/siteicon/256.png","sizes":"256x256","type":"image/png"}],"splash_pages":null}]]></content>
       
     </entry>
     
