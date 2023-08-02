@@ -29,16 +29,16 @@
     
     
     <entry>
-      <title>初遇Unity——单机肉鸽</title>
-      <link href="/2023/07/31/%E9%A1%B9%E7%9B%AE/%E8%82%89%E9%B8%BD%E5%8A%A8%E4%BD%9C/"/>
-      <url>/2023/07/31/%E9%A1%B9%E7%9B%AE/%E8%82%89%E9%B8%BD%E5%8A%A8%E4%BD%9C/</url>
+      <title>面向求职的一篇博客</title>
+      <link href="/2023/07/31/%E6%B1%82%E8%81%8C/%E9%9D%A2%E5%90%91%E6%B1%82%E8%81%8C%E7%9A%84%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
+      <url>/2023/07/31/%E6%B1%82%E8%81%8C/%E9%9D%A2%E5%90%91%E6%B1%82%E8%81%8C%E7%9A%84%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
       
-        <content type="html"><![CDATA[<div class="note blue anzhiyufont anzhiyu-icon-bullhorn simple"><p>去年跟着教学写的一个单机肉鸽游戏，第一次接触 Unity 的时候写的，原教学视频在 Youtube，游戏加入了自己的理解，也用到了很多插件，写这篇博客的目的，一方面是为了巩固之前做的，一方面作为求职作品，原作者主页如下，感谢的同学可以直接去主页寻找，需要翻墙哦!</p><div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://www.youtube.com/watch?v=Pux1GlFwKPs&t=2s">    <div class="tag-link-tips">引用站外地址</div>    <div class="tag-link-bottom">        <div class="tag-link-left" style="background-image: url(https://api.iowen.cn/favicon/www.youtube.com/watch?v=Pux1GlFwKPs&t=2s.png);"></div>        <div class="tag-link-right">            <div class="tag-link-title">Youtube游戏开发大神</div>            <div class="tag-link-sitename">Bardent</div>        </div>        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>    </div>    </a></div></div><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>由于项目很早就做完了，博客是最近才开始写的，所以这里先放个视频，加个 Todo 后面慢慢写了</p><h2 id="视频先览"><a href="#视频先览" class="headerlink" title="视频先览"></a>视频先览</h2><div id="player_cdb8ca6e6aebd07a"></div><div class="js-pjax"><script type="text/javascript" src="https://player.dogecloud.com/js/loader"></script><script type="text/javascript" defer>  setTimeout(() => {    var dogePlayer = new DogePlayer({        container: document.getElementById("player_cdb8ca6e6aebd07a"),        userId: 7152,        vcode: "cdb8ca6e6aebd07a",        autoPlay: false    });  }, 300);</script></div><h2 id="Todo"><a href="#Todo" class="headerlink" title="Todo"></a>Todo</h2><div class='checkbox'><input type="checkbox" />            <p>游戏介绍</p>            </div><div class='checkbox'><input type="checkbox" />            <p>技术选型</p>            </div><div class='checkbox'><input type="checkbox" />            <p>遇到的问题</p>            </div><div class='checkbox'><input type="checkbox" />            <p>游戏优化</p>            </div><div class='checkbox'><input type="checkbox" />            <p>游戏发布</p>            </div>]]></content>
+        <content type="html"><![CDATA[<div class="note blue anzhiyufont anzhiyu-icon-bullhorn simple"><p>这是一篇关于求职 Unity 的博客，关于我最近的一切都在这里了，然后介绍了一些之前做的一些项目</p></div><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>不知不觉，已经离职了三个月，先说说我这三个月都干了些啥，从前公司离职后，就开始把之前的简历拿出来改，裸辞的，为啥裸辞了，因为公司已经不做游戏了，之前游戏项目组全被裁，留我一个维护，现在已经放弃之前开发的那个游戏转做海外音视频了，然后因为职业规划不一样就辞了。辞职之后，休息了两三天，基本下午都是东湖骑骑车，晚上出去溜达溜达。</p><h2 id="碎言碎语"><a href="#碎言碎语" class="headerlink" title="碎言碎语"></a>碎言碎语</h2><p>后来搞了会简历，开始投简历，面了有七八家，过了两家，但是都没去成。一家初创公司，从立项开始做，方向是 Steam 和海外，做类似饥荒那种生存游戏，公司五六个人，技术主管还是做前端的，游戏主程都没有，压力巨大，我就拒绝了。还有一家中型公司，福利待遇都可以，给了通过，然后过了半天，告诉我不缺人，然后就被鸽了。后面投了几家基本都是要高级主程的，我自己的技术几斤几两还是很清楚，基本面个初中级感觉差不多。然后我就摆烂了，没去投了，有电话打过来就去面一下，电话打的几乎全是腾讯的外包，然后外包也没过，话说腾讯这外包要求也这么多啊 😂。</p><h2 id="经历"><a href="#经历" class="headerlink" title="经历"></a>经历</h2><p>然后没投简历之后干嘛了呢，我就去办了个健身卡，天天搁那一天练两次，也没啥别的事干，课余时间就整整我那自己写的游戏，有时候写游戏写烦了就搞搞新玩意，学学 C++，然后搞了一个星期的 C++，跟着教程做了个类似腾讯 qq 的局域网通信，其实这玩意跟 C#写双端通信差不多的原理。</p><h2 id="游戏"><a href="#游戏" class="headerlink" title="游戏"></a>游戏</h2><p>再到后面就是七月份，玩了个叫晶核的游戏，准确来说是坐牢游戏，为啥叫坐牢游戏呢，因为太肝了，一天天不打个五六个小时号就废了，你想养号就得玩四个号，三个号养一个大号，抛开肝度不谈，游戏里的强化系统是真离谱，强化成功率小，材料花费贵，当然这是十几级的时候，但谁不想强化高一点呢。然后我在一个静谧的夜晚，开始强化，然后就爆炸，心态爆炸，武器爆炸，气的我下游戏直接睡觉，然后躺在床上越想越气，这概率就离谱，然后气的睡不着，开始想这玩意我也能写一个啊，写个强化的程序测一下强化到每个阶段的花费。然后不睡了，开电脑开始写，写完了发现确实每个阶段花费以及成功次数都是很难预估的，当然这也和测试样本数量有关，这里暂时不说了，另外开篇博客讲这个。后面就这样了，七月底我又开始投简历了，顺便用了下鱼佬的主题写写博客，总之这三个月，有摆烂，有学习，有健身，有游戏，有熬夜，有早起，开始调整状态找个班上了！</p><div class="note blue anzhiyufont anzhiyu-icon-bullhorn simple"><p>项目太久之前都已经做完了，目前增增改改，先放个视频吧</p></div><h2 id="项目-单机-动作肉鸽类型"><a href="#项目-单机-动作肉鸽类型" class="headerlink" title="项目 单机 动作肉鸽类型"></a>项目 单机 动作肉鸽类型</h2><div id="player_cdb8ca6e6aebd07a"></div><div class="js-pjax"><script type="text/javascript" src="https://player.dogecloud.com/js/loader"></script><script type="text/javascript" defer>  setTimeout(() => {    var dogePlayer = new DogePlayer({        container: document.getElementById("player_cdb8ca6e6aebd07a"),        userId: 7152,        vcode: "cdb8ca6e6aebd07a",        autoPlay: false    });  }, 300);</script></div><h2 id="项目-多人网络-卡牌类型"><a href="#项目-多人网络-卡牌类型" class="headerlink" title="项目 多人网络 卡牌类型"></a>项目 多人网络 卡牌类型</h2><div id="player_c8767ca9dec591d5"></div><div class="js-pjax"><script type="text/javascript" src="https://player.dogecloud.com/js/loader"></script><script type="text/javascript" defer>  setTimeout(() => {    var dogePlayer = new DogePlayer({        container: document.getElementById("player_c8767ca9dec591d5"),        userId: 7152,        vcode: "c8767ca9dec591d5",        autoPlay: false    });  }, 300);</script></div><h2 id="项目-多人网络-MMO-类型"><a href="#项目-多人网络-MMO-类型" class="headerlink" title="项目 多人网络 MMO 类型"></a>项目 多人网络 MMO 类型</h2><div id="player_6b2fb94aef3dac84"></div><div class="js-pjax"><script type="text/javascript" src="https://player.dogecloud.com/js/loader"></script><script type="text/javascript" defer>  setTimeout(() => {    var dogePlayer = new DogePlayer({        container: document.getElementById("player_6b2fb94aef3dac84"),        userId: 7152,        vcode: "6b2fb94aef3dac84",        autoPlay: false    });  }, 300);</script></div><h2 id="其他学习项目-仙侠-MMO"><a href="#其他学习项目-仙侠-MMO" class="headerlink" title="其他学习项目 仙侠 MMO"></a>其他学习项目 仙侠 MMO</h2><div id="player_d44a5f6dad0d766f"></div><div class="js-pjax"><script type="text/javascript" src="https://player.dogecloud.com/js/loader"></script><script type="text/javascript" defer>  setTimeout(() => {    var dogePlayer = new DogePlayer({        container: document.getElementById("player_d44a5f6dad0d766f"),        userId: 7152,        vcode: "d44a5f6dad0d766f",        autoPlay: false    });  }, 300);</script></div>]]></content>
       
       
       <categories>
           
-          <category> 项目 </category>
+          <category> 求职 </category>
           
       </categories>
       
@@ -54,16 +54,41 @@
     
     
     <entry>
-      <title>面向求职的一篇博客</title>
-      <link href="/2023/07/31/%E9%A1%B9%E7%9B%AE/%E9%9D%A2%E5%90%91%E6%B1%82%E8%81%8C%E7%9A%84%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
-      <url>/2023/07/31/%E9%A1%B9%E7%9B%AE/%E9%9D%A2%E5%90%91%E6%B1%82%E8%81%8C%E7%9A%84%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
+      <title></title>
+      <link href="/2023/07/31/%E7%94%9F%E6%B4%BB/%E9%9F%B3%E4%B9%90%E7%AF%87/"/>
+      <url>/2023/07/31/%E7%94%9F%E6%B4%BB/%E9%9F%B3%E4%B9%90%E7%AF%87/</url>
       
-        <content type="html"><![CDATA[<div class="note blue anzhiyufont anzhiyu-icon-bullhorn simple"><p>这是一篇关于求职 Unity 的博客，关于我最近的一切都在这里了，然后介绍了一些之前做的一些项目</p></div><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>不知不觉，已经离职了三个月，先说说我这三个月都干了些啥，从前公司离职后，就开始把之前的简历拿出来改，裸辞的，为啥裸辞了，因为公司已经不做游戏了，之前游戏项目组全被裁，留我一个维护，现在已经放弃之前开发的那个游戏转做海外音视频了，然后因为职业规划不一样就辞了。辞职之后，休息了两三天，基本下午都是东湖骑骑车，晚上出去溜达溜达。</p><h2 id="碎言碎语"><a href="#碎言碎语" class="headerlink" title="碎言碎语"></a>碎言碎语</h2><p>后来搞了会简历，开始投简历，面了有七八家，过了两家，但是都没去成。一家初创公司，从立项开始做，方向是 Steam 和海外，做类似饥荒那种生存游戏，公司五六个人，技术主管还是做前端的，游戏主程都没有，压力巨大，我就拒绝了。还有一家中型公司，福利待遇都可以，给了通过，然后过了半天，告诉我不缺人，然后就被鸽了。后面投了几家基本都是要高级主程的，我自己的技术几斤几两还是很清楚，基本面个初中级感觉差不多。然后我就摆烂了，没去投了，有电话打过来就去面一下，电话打的几乎全是腾讯的外包，然后外包也没过，话说腾讯这外包要求也这么多啊 😂。</p><h2 id="经历"><a href="#经历" class="headerlink" title="经历"></a>经历</h2><p>然后没投简历之后干嘛了呢，我就去办了个健身卡，天天搁那一天练两次，也没啥别的事干，课余时间就整整我那自己写的游戏，有时候写游戏写烦了就搞搞新玩意，学学 C++，然后搞了一个星期的 C++，跟着教程做了个类似腾讯 qq 的局域网通信，其实这玩意跟 C#写双端通信差不多的原理。</p><h2 id="游戏"><a href="#游戏" class="headerlink" title="游戏"></a>游戏</h2><p>再到后面就是七月份，玩了个叫晶核的游戏，准确来说是坐牢游戏，为啥叫坐牢游戏呢，因为太肝了，一天天不打个五六个小时号就废了，你想养号就得玩四个号，三个号养一个大号，抛开肝度不谈，游戏里的强化系统是真离谱，强化成功率小，材料花费贵，当然这是十几级的时候，但谁不想强化高一点呢。然后我在一个静谧的夜晚，开始强化，然后就爆炸，心态爆炸，武器爆炸，气的我下游戏直接睡觉，然后躺在床上越想越气，这概率就离谱，然后气的睡不着，开始想这玩意我也能写一个啊，写个强化的程序测一下强化到每个阶段的花费。然后不睡了，开电脑开始写，写完了发现确实每个阶段花费以及成功次数都是很难预估的，当然这也和测试样本数量有关，这里暂时不说了，另外开篇博客讲这个。后面就这样了，七月底我又开始投简历了，顺便用了下鱼佬的主题写写博客，总之这三个月，有摆烂，有学习，有健身，有游戏，有熬夜，有早起，开始调整状态找个班上了！</p><div class="note blue anzhiyufont anzhiyu-icon-bullhorn simple"><p>项目太久之前都已经做完了，目前增增改改，先放个视频吧</p></div><h2 id="项目-单机-动作肉鸽类型"><a href="#项目-单机-动作肉鸽类型" class="headerlink" title="项目 单机 动作肉鸽类型"></a>项目 单机 动作肉鸽类型</h2><div id="player_cdb8ca6e6aebd07a"></div><div class="js-pjax"><script type="text/javascript" src="https://player.dogecloud.com/js/loader"></script><script type="text/javascript" defer>  setTimeout(() => {    var dogePlayer = new DogePlayer({        container: document.getElementById("player_cdb8ca6e6aebd07a"),        userId: 7152,        vcode: "cdb8ca6e6aebd07a",        autoPlay: false    });  }, 300);</script></div><h2 id="项目-多人网络-卡牌类型"><a href="#项目-多人网络-卡牌类型" class="headerlink" title="项目 多人网络 卡牌类型"></a>项目 多人网络 卡牌类型</h2><div id="player_c8767ca9dec591d5"></div><div class="js-pjax"><script type="text/javascript" src="https://player.dogecloud.com/js/loader"></script><script type="text/javascript" defer>  setTimeout(() => {    var dogePlayer = new DogePlayer({        container: document.getElementById("player_c8767ca9dec591d5"),        userId: 7152,        vcode: "c8767ca9dec591d5",        autoPlay: false    });  }, 300);</script></div><h2 id="项目-多人网络-MMO-类型"><a href="#项目-多人网络-MMO-类型" class="headerlink" title="项目 多人网络 MMO 类型"></a>项目 多人网络 MMO 类型</h2><div id="player_6b2fb94aef3dac84"></div><div class="js-pjax"><script type="text/javascript" src="https://player.dogecloud.com/js/loader"></script><script type="text/javascript" defer>  setTimeout(() => {    var dogePlayer = new DogePlayer({        container: document.getElementById("player_6b2fb94aef3dac84"),        userId: 7152,        vcode: "6b2fb94aef3dac84",        autoPlay: false    });  }, 300);</script></div><h2 id="其他学习项目-仙侠-MMO"><a href="#其他学习项目-仙侠-MMO" class="headerlink" title="其他学习项目 仙侠 MMO"></a>其他学习项目 仙侠 MMO</h2><div id="player_d44a5f6dad0d766f"></div><div class="js-pjax"><script type="text/javascript" src="https://player.dogecloud.com/js/loader"></script><script type="text/javascript" defer>  setTimeout(() => {    var dogePlayer = new DogePlayer({        container: document.getElementById("player_d44a5f6dad0d766f"),        userId: 7152,        vcode: "d44a5f6dad0d766f",        autoPlay: false    });  }, 300);</script></div>]]></content>
+        <content type="html"><![CDATA[<div class="note blue anzhiyufont anzhiyu-icon-bullhorn simple"><p>记录下这几个月的面试，面试前看看，怕到时候大脑宕机不知道说啥</p></div><h2 id="Todo"><a href="#Todo" class="headerlink" title="Todo"></a>Todo</h2>]]></content>
       
       
       <categories>
           
-          <category> 求职 </category>
+          <category> 日常 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 音乐 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>初遇Unity——单机肉鸽</title>
+      <link href="/2023/07/31/%E9%A1%B9%E7%9B%AE/%E8%82%89%E9%B8%BD%E5%8A%A8%E4%BD%9C/"/>
+      <url>/2023/07/31/%E9%A1%B9%E7%9B%AE/%E8%82%89%E9%B8%BD%E5%8A%A8%E4%BD%9C/</url>
+      
+        <content type="html"><![CDATA[<div class="note blue anzhiyufont anzhiyu-icon-bullhorn simple"><p>去年跟着教学写的一个单机肉鸽游戏，第一次接触 Unity 的时候写的，原教学视频在 Youtube，游戏加入了自己的理解，也用到了很多插件，写这篇博客的目的，一方面是为了巩固之前做的，一方面作为求职作品，原作者主页如下，感谢的同学可以直接去主页寻找，需要翻墙哦!</p><div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://www.youtube.com/watch?v=Pux1GlFwKPs&t=2s">    <div class="tag-link-tips">引用站外地址</div>    <div class="tag-link-bottom">        <div class="tag-link-left" style="background-image: url(https://api.iowen.cn/favicon/www.youtube.com/watch?v=Pux1GlFwKPs&t=2s.png);"></div>        <div class="tag-link-right">            <div class="tag-link-title">Youtube游戏开发大神</div>            <div class="tag-link-sitename">Bardent</div>        </div>        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>    </div>    </a></div></div><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>由于项目很早就做完了，博客是最近才开始写的，所以这里先放个视频，加个 Todo 后面慢慢写了</p><h2 id="视频先览"><a href="#视频先览" class="headerlink" title="视频先览"></a>视频先览</h2><div id="player_cdb8ca6e6aebd07a"></div><div class="js-pjax"><script type="text/javascript" src="https://player.dogecloud.com/js/loader"></script><script type="text/javascript" defer>  setTimeout(() => {    var dogePlayer = new DogePlayer({        container: document.getElementById("player_cdb8ca6e6aebd07a"),        userId: 7152,        vcode: "cdb8ca6e6aebd07a",        autoPlay: false    });  }, 300);</script></div><h2 id="Todo"><a href="#Todo" class="headerlink" title="Todo"></a>Todo</h2><div class='checkbox'><input type="checkbox" />            <p>游戏介绍</p>            </div><div class='checkbox'><input type="checkbox" />            <p>技术选型</p>            </div><div class='checkbox'><input type="checkbox" />            <p>遇到的问题</p>            </div><div class='checkbox'><input type="checkbox" />            <p>游戏优化</p>            </div><div class='checkbox'><input type="checkbox" />            <p>游戏发布</p>            </div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 项目 </category>
           
       </categories>
       
