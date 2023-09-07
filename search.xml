@@ -4,6 +4,60 @@
   
     
     <entry>
+      <title>图形学与渲染</title>
+      <link href="/posts/d40e6620.html"/>
+      <url>/posts/d40e6620.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="渲染流水线"><a href="#渲染流水线" class="headerlink" title="渲染流水线"></a>渲染流水线</h2><p>定义：将摄像机拍摄到的 3D 物体转化成 2D 图像的一系列处理步骤。</p><p>渲染流水线主要包括两个功能: 一是将物体 3D 坐标转变成屏幕空间 2D 坐标，二是为屏幕每个像素点进行着色。(大小，虚实，高低，遮挡，光影)</p><ol><li>几何阶段</li></ol><p>功能：将 3D 物体顶点坐标转化为屏幕 2D 坐标</p><ol start="2"><li>光栅化阶段</li></ol><p>功能：将屏幕像素点进行着色</p><p>核心概率</p><ol><li>基于 Gpu</li><li>显存</li></ol><h2 id="透视原理"><a href="#透视原理" class="headerlink" title="透视原理"></a>透视原理</h2><p>2D 屏幕显示 3D 的物体的要素</p><p>灭点：近大远小<br>遮挡关系：近实远虚<br>光影：添加光影效果</p><h2 id="基本常见概念"><a href="#基本常见概念" class="headerlink" title="基本常见概念"></a>基本常见概念</h2><p>顶点：指的是物体模型的点</p><p>图元：组成图像的基本单元，点、线、面</p><p>片元： 未来的像素点，比像素点多一些元素，比如位置、法向量等</p><p>像素：屏幕上的点，包含 rgba 四个值</p><p>顶点数据-&gt;图元-&gt;合成片元-&gt;合成像素点-&gt;输出</p><h2 id="应用阶段"><a href="#应用阶段" class="headerlink" title="应用阶段"></a>应用阶段</h2><p>与 Gpu 进行交互</p><ol><li>基于 Cpu</li><li>内存</li><li>收集需要渲染的模型以及资源（顶点、灯光、贴图、Shader），然后装配成图元发送给显存</li></ol><p>DrawCall：在应用阶段，将需要渲染的模型以及资源装配成图元，发送给显存进行渲染流水线处理。</p><p>每调用一次 DrawCall，显存 Gpu 就会运算一次，所以 DrawCall 调用越少越好，一般采用数据资源合批（静态合批与动态合批）传一次，来降低 DrawCall</p><p>相机能看的到的模型会发送过去，看不到的不发送</p><h2 id="Gpu"><a href="#Gpu" class="headerlink" title="Gpu"></a>Gpu</h2><p>Gup 是显卡的核心部分，生产桌面 Gpu 的主要两个厂商：NVIDIA 和 AMD</p><p>功能</p><ol><li>图形绘制</li><li>物理模拟</li><li>海量计算</li><li>AI 运算</li><li>其他计算</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> Unity </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Shader </tag>
+            
+            <tag> 图形学 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>C#与Lua基础</title>
+      <link href="/posts/d40e6620.html"/>
+      <url>/posts/d40e6620.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="变量和常量"><a href="#变量和常量" class="headerlink" title="变量和常量"></a>变量和常量</h2><p><code>变量</code></p><p>命名规范</p><ol><li>必须以字母或下划线开头，后面可以跟任意字母、下划线、数字</li><li>camel 命名：首个单词小写，后面单词首字母大写</li><li>在变量作用域内不可以再定义同名变量</li></ol><p>注意：</p><ul><li>不能以 C#中关键字命名变量</li><li>同一个变量不能重复定义</li><li>需要实例化类调用内部变量</li></ul><p>静态变量：只需创建一次，可多次引用，初始化值是该变量默认值，不需要实例化类，可通过类名直接调用</p><p>局部变量：在一个独立的程序块中声明的变量，只在该区域有效</p><p><code>常量</code></p><p>定义：用来存储固定值，一但初始化就不会再改变，和静态变量类似，可通过类名直接调用</p><p>字符常量</p><table><thead><tr><th align="left">转义序列</th><th align="left">含义</th></tr></thead><tbody><tr><td align="left">\</td><td align="left">\ 字符</td></tr><tr><td align="left">&#39;</td><td align="left">‘ 字符</td></tr><tr><td align="left">&quot;</td><td align="left">“ 字符</td></tr><tr><td align="left">?</td><td align="left">? 字符</td></tr><tr><td align="left">\a</td><td align="left">Alert 或 bell</td></tr><tr><td align="left">\b</td><td align="left">退格键（Backspace）</td></tr><tr><td align="left">\f</td><td align="left">换页符（Form feed）</td></tr><tr><td align="left">\n</td><td align="left">换行符（Newline）</td></tr><tr><td align="left">\r</td><td align="left">回车</td></tr><tr><td align="left">\t</td><td align="left">水平制表符 tab</td></tr><tr><td align="left">\v</td><td align="left">垂直制表符 tab</td></tr></tbody></table><p><code>Lua中的变量与常量</code></p><p>注意</p><ul><li>lua 中没有类型声明</li><li>定义变量只有全局变量和局部变量</li><li>局部变量只在函数内部才能定义</li></ul><figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment">-- 定义全局变量</span></span><br><span class="line"></span><br><span class="line">name = itxcm</span><br><span class="line"></span><br><span class="line"><span class="comment">-- 定义局部变量</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">test</span><span class="params">()</span></span></span><br><span class="line">  <span class="keyword">local</span> test = itxcm</span><br><span class="line"><span class="keyword">end</span></span><br><span class="line"></span><br></pre></td></tr></table></figure><h2 id="TODO"><a href="#TODO" class="headerlink" title="TODO"></a>TODO</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> Unity </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Lua </tag>
+            
+            <tag> C# </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Unity面试题——热更新与Lua</title>
       <link href="/posts/a466fb88.html"/>
       <url>/posts/a466fb88.html</url>
